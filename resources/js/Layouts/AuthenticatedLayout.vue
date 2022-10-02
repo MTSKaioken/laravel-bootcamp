@@ -31,7 +31,7 @@ const showingNavigationDropdown = ref(false);
                                     Dashboard
                                 </NavLink>
                                 <NavLink :href="route('chirps.index')" :active="route().current('chirps.index')">
-                                    Chirps
+                                    Mensagens
                                 </NavLink>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const showingNavigationDropdown = ref(false);
 
                                     <template #content>
                                         <DropdownLink :href="route('logout')" method="post" as="button">
-                                            Log Out
+                                            Sair
                                         </DropdownLink>
                                     </template>
                                 </Dropdown>
@@ -80,7 +80,7 @@ const showingNavigationDropdown = ref(false);
                             Dashboard
                         </ResponsiveNavLink>
                         <ResponsiveNavLink :href="route('chirps.index')" :active="route().current('chirps.index')">
-                            Chirps
+                            Mensagens
                         </ResponsiveNavLink>
                     </div>
 
@@ -93,7 +93,7 @@ const showingNavigationDropdown = ref(false);
 
                         <div class="mt-3 space-y-1">
                             <ResponsiveNavLink :href="route('logout')" method="post" as="button">
-                                Log Out
+                                Sair
                             </ResponsiveNavLink>
                         </div>
                     </div>
